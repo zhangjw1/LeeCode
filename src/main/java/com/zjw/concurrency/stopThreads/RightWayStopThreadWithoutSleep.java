@@ -1,4 +1,4 @@
-package threadcoreknowledge.stopthreads;
+package com.zjw.concurrency.stopThreads;
 
 /**
  * 描述：     run方法内没有sleep或wait方法时，停止线程

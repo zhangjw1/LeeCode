@@ -1,4 +1,4 @@
-package threadcoreknowledge.stopthreads;
+package com.zjw.concurrency.stopThreads;
 
 /**
  * 描述：     注意Thread.interrupted()方法的目标对象是“当前线程”，而不管本方法来自于哪个对象

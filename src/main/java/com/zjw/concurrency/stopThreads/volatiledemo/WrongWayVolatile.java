@@ -1,4 +1,4 @@
-package threadcoreknowledge.stopthreads.volatiledemo;
+package com.zjw.concurrency.stopThreads.volatiledemo;
 
 /**
  * 描述：     演示用volatile的局限：part1 看似可行

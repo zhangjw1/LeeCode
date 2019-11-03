@@ -1,4 +1,4 @@
-package threadcoreknowledge.createthreads;
+package com.zjw.concurrency.createThreads;
 
 /**
  * 描述：     用Runnable方式创建线程
