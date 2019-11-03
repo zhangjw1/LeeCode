@@ -1,4 +1,4 @@
-package com.zjw.concurrency.deadlock;
+package com.zjw.concurrency.deadLock;
 
 import deadlock.TransferMoney.Account;
 
