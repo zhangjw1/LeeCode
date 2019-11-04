@@ -3,6 +3,7 @@ package com.zjw.algorithm.sort;
 /**
  * @author zhang jiawei
  * @date 2019/9/23 18:04
+ * 插入排序
  */
 public class InsertSort {
 
@@ -24,11 +25,13 @@ public class InsertSort {
 
 
     public static void main(String[] args) {
-        int[] arr = new int[50];
+        int[] arr = new int[20];
         for (int i = 0; i < arr.length; i++) {
             int randomInt = (int) (Math.random() * 100 + 1);
             arr[i] = randomInt;
+            System.out.print(arr[i] + " ");
         }
+        System.out.println();
         int[] newArr = insertSort(arr);
         for (int i = 0; i < newArr.length; i++) {
             System.out.print(newArr[i] + " ");
